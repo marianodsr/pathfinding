@@ -1,6 +1,6 @@
 import { writable } from 'svelte/store';
 
-export const rows = 15
+export const rows = 12
 export const cols = 30
 
 const startNodeRow = 3

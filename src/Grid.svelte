@@ -157,7 +157,7 @@
     }
 
     .button-bar {
-        margin-top: 8rem;
+        margin-top: 4rem;
         display: flex;
         align-items: center;
         justify-content: space-between;
