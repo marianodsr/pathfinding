@@ -1,5 +1,12 @@
 import { writable } from 'svelte/store';
 
+export const ALGORITHMS = {
+    DIJKSTRA: "DIJKSTRA",
+    BUBBLE_SORT: "BUBBLE_SORT"
+}
+
+export const selectedAlgorithm = writable(ALGORITHMS.DIJKSTRA)
+
 export const rows = 12
 export const cols = 30
 

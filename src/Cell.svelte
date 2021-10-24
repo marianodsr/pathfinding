@@ -39,8 +39,8 @@ import { get } from 'svelte/store';
 
 <style>
     div {
-        width: 50px;
-        height: 50px;
+        width: 30px;
+        height: 30px;
         border: 1px solid white;
         cursor: pointer;
     }

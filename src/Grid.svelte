@@ -74,8 +74,8 @@
   .circle {
       background-color: white;
       border-radius: 50%;
-      width: 4rem;
-      height: 4rem;
+      width:2.5rem;
+      height: 2.5rem;
       cursor: pointer;
       box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
 -webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
@@ -85,6 +85,7 @@
   h3 {
       color: white;
       align-self: flex-end;
+      font-size: .7rem
   }
 
   .button-block {
@@ -121,14 +122,14 @@
 
 
   .green {
-      width: 2rem;
-      height: 2rem;
+      width: 1rem;
+      height: 1rem;
       background-color: #80ffdb;
   }
 
   .red {
-    width: 2rem;
-      height: 2rem;
+    width: 1rem;
+      height: 1rem;
       background-color: #f8f9fa;
   }
   .col-container {
@@ -137,7 +138,7 @@
 
     button {
        
-        padding: 1rem 4rem;
+        padding: .5rem 3rem;
         color: white;
         background-color: #f72585;
         border-radius: 5%;
@@ -161,21 +162,20 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width: 65%;
-        padding: 0 40rem;
+        width: 70%;
         margin-bottom: 1rem;
     }
 
     .node-change-buttons {
         display: flex;
-        width: 20rem;
+        width: 18rem;
         justify-content: space-between;
     }
 
     .solve-and-reset {
         display:flex;
         align-items: center;
-        width: 20rem;
+        width: 17rem;
         justify-content: space-between;
     }
     

@@ -1,11 +1,26 @@
 <script>
 	import Grid from './Grid.svelte'
 	import Navbar from './Navbar.svelte'
+	import { selectedAlgorithm, ALGORITHMS } from "./store"
+	import BubbleSort from "./BubbleSort.svelte"
+
+	let selAlg
+
+	selectedAlgorithm.subscribe(val => {
+		selAlg = val
+	})
+
+
+
 </script>
 
 <main>
 	<Navbar />
-	<Grid />
+	{#if selAlg === ALGORITHMS.DIJKSTRA}
+		<Grid />
+	{:else if selAlg === ALGORITHMS.BUBBLE_SORT}
+		<BubbleSort />
+	{/if}
 </main>
 
 <style>
